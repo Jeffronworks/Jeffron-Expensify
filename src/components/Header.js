@@ -1,19 +1,11 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header>
     <h1>Expensify</h1>
-
-    <p>
-      <NavLink activeClassName="is-active" to="/" exact={true}>
-        Home
-      </NavLink>
-      <NavLink activeClassName="is-active" to="/create">
-        {" "}
-        Create Expense
-      </NavLink>
-    </p>
+    <NavLink to="/" activeClassName="is-active" exact={true}>Dashboard</NavLink>
+    <NavLink to="/create" activeClassName="is-active">Create Expense</NavLink>
   </header>
 );
 
