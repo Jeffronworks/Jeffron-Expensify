@@ -8,9 +8,9 @@ test("should correctly render expenses summary with one expense", () => {
   );
   expect(wrapper).toMatchSnapshot;
 });
-// test("should correctly render expenses summary with multiple expenses", () => {
-//   const wrapper = shallow(
-//     <ExpensesSummary expenseCount={23} expenseTotal={235829804848} />
-//   );
-//   expect(wrapper).toMatchSnapshot;
-// });
+test("should correctly render expenses summary with multiple expenses", () => {
+  const wrapper = shallow(
+    <ExpensesSummary expenseCount={23} expenseTotal={235829804848} />
+  );
+  expect(wrapper).toMatchSnapshot;
+});
