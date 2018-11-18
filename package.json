@@ -1,8 +1,11 @@
 {
   "name": "expensify",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.11.3"
+  },
   "main": "index.js",
-  "author": "Andrew Mead",
+  "author": "Ebuka Udechukwu",
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack",
